@@ -18,4 +18,9 @@ class ContactController extends AbstractActionController
     {
         return new ViewModel();
     }
+
+    public function sendAction()
+    {
+    	return new ViewModel();
+    }
 }
