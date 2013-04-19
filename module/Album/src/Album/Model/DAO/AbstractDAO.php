@@ -38,6 +38,7 @@
 			if (!$row) {
 				throw new \Exception("Could not find row $id");
 			}
+			
 			return $row;
 		}
 		
