@@ -23,4 +23,12 @@ class AuthController extends AbstractActionController
     {
     	return new ViewModel();
     }
+    
+   public function loginAction()
+   {
+   }
+
+   public function logoutAction()
+   {
+   }
 }
