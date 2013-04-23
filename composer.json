@@ -10,7 +10,9 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*",
-		"predis/predis": "dev-master"
+        "zendframework/zendframework"	: "2.*",
+        "bjyoungblood/BjyProfiler"		: "*",
+        "doctrine/migrations"			: "*",
+		"doctrine/doctrine-orm-module"	: "0.7.*"
     }
 }
